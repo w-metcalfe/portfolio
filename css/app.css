@@ -1,0 +1,172 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+    background-color: #FBFBFB;
+    font-family: Inter, sans-serif;
+}
+
+.main-padding {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 230px;
+}
+
+.portPadding {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.placeholder {
+    background-color: black;
+    color: white;
+}
+
+.socials {
+    margin-top: 50px;
+}
+
+.firstPort {
+    margin-top: 170px;
+}
+
+.port {
+    margin-top: 86px;
+}
+
+.portDesc {
+    margin-top: 25px;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.icons {
+    padding-top: 7px;
+}
+
+#emailBtn {
+    background: black;
+    color: white;
+    padding: 11px 32px 11px 32px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#linkedinBtn {
+    background-color: #0072b1;
+    color: white;
+    padding: 11px 26px 11px 26px;
+    margin-left: 17px;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+
+.learnMore {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+#welcomeMsg {
+    padding-bottom: 50px;
+}
+
+.dates {
+    color: #949494;
+}
+
+#resumeCon {
+    text-align: right;
+    padding-bottom: 50px;;
+    color: #949494;
+}
+
+#resumeCon div a {
+    color: #949494;
+}
+
+#coffee {
+    color: #949494;
+    padding-bottom: 50px;
+}
+
+.figmaLink {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.backBtn {
+    color: #949494;
+}
+
+.portTitle {
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 987px) {
+    .main-padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 808px) {
+    .main-padding {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 574px) {
+    .main-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header {
+        font-size: 24px;
+    }
+
+    .portDesc {
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 987px) {
+    .portPadding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 808px) {
+    .portPadding {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 574px) {
+    .portPadding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header {
+        font-size: 24px;
+    }
+
+    .portDesc {
+        font-size: 20px;
+    }
+  }
