@@ -39,3 +39,16 @@ function copyToClipboard(text) {
     document.execCommand('copy');
     document.body.removeChild(dummy);
 }
+
+tippy('#emailBtn', {
+	content: 'Copied!',
+	theme: 'custom',
+	arrow: '',
+	trigger: 'click',
+	animation: 'fade',
+	onShow(instance) {
+		setTimeout(() => {
+			instance.hide();
+		}, 3000);
+	}
+  });
